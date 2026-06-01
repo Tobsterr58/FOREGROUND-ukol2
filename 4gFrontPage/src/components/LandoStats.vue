@@ -70,7 +70,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <!-- Hlavný obal zaberajúci 80vh (80% výšky obrazovky) s tmavým pozadím -->
+    <!-- Hlavný obal zaberajúci 80vh s tmavým pozadím -->
     <section ref="sectionRef" class="w-full bg-[#111827] min-h-[80vh] flex items-center justify-center relative overflow-hidden py-24">
         
         <div class="max-w-7xl mx-auto w-full px-6 md:px-12 relative z-10">

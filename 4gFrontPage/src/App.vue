@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'
 
 // Importujeme naše komponenty
 import Navbar from './components/Navbar.vue'
+import FloatingElements from './components/FloatingElements.vue'
 import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import Services from './components/Services.vue'
@@ -35,5 +36,6 @@ onMounted(() => {
     <Video>
       <Footer />
     </Video>
+    <FloatingElements />
   </div>
 </template>

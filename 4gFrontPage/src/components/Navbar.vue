@@ -285,7 +285,7 @@ onUnmounted(() => {
                 </div>
             </div>
 
-            <!-- 3. KATEGÓRIA: ZÁVODY (Nezmenená) -->
+            <!-- 3. KATEGÓRIA: ZÁVODY -->
             <div v-else-if="activeMenuCategory === 'zavody'" class="grid grid-cols-1 md:grid-cols-5 gap-8 min-h-[320px]">
                 <div v-for="(region, idx) in zavodyData" :key="idx" class="col-span-1 border-r border-gray-800 last:border-r-0">
                     <h4 class="text-white font-bold text-lg mb-6">{{ region.title }}</h4>
